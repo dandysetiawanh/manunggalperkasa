@@ -6,6 +6,21 @@
 * License: https://bootstrapmade.com/license/
 */
 
+/* Mengurangi jarak bawah Sejarah */
+#services.services {
+  padding-bottom: 30px;
+}
+
+/* Mengurangi jarak atas Produk Kami */
+#portfolio.portfolio {
+  padding-top: 30px;
+}
+
+/* Merapikan posisi judul Produk Kami */
+#portfolio .section-title {
+  padding-top: 10px;
+}
+
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
@@ -1329,12 +1344,12 @@ section,
 # Services Section
 --------------------------------------------------------------*/
 .services .services-header {
-  margin-bottom: 4rem;
+  margin-bottom: 0;
 }
 
 @media (max-width: 992px) {
   .services .services-header {
-    margin-bottom: 3rem;
+    margin-bottom: 0;
   }
 }
 
