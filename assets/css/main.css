@@ -1059,7 +1059,7 @@ section,
 /* Desktop fullscreen */
 @media (min-width: 1200px) {
   .about .about-image-wrapper {
-    margin-top: 75px;
+    margin-top: 15px;
   }
 }
 
@@ -1380,6 +1380,8 @@ section,
   font-size: 1.1rem;
   line-height: 1.6;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
+  text-align: justify;
+  text-align-last: left;
 }
 
 .services .services-stats {
@@ -3073,9 +3075,11 @@ section,
 .team .team-header p {
   font-size: 17px;
   color: color-mix(in srgb, var(--default-color), transparent 25%);
-  max-width: 600px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
   text-align: center;
+  line-height: 1.7;
 }
 
 @media (max-width: 991px) {
